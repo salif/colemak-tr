@@ -1,0 +1,15 @@
+--- /usr/share/X11/xkb/rules/evdev.xml	2020-08-28 15:15:14.961952191 +0300
++++ ./linux/evdev.xml	2020-08-28 15:52:09.592834110 +0300
+@@ -5481,6 +5481,12 @@
+         </variant>
+         <variant>
+           <configItem>
++            <name>colemak</name>
++            <description>Turkish (Colemak)</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
+             <name>ku</name>
+             <!-- Keyboard indicator for Kurdish layouts -->
+             <shortDescription>ku</shortDescription>
