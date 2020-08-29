@@ -1,18 +1,14 @@
---- /usr/share/X11/xkb/symbols/tr	2020-08-28 15:16:05.072894580 +0300
-+++ ./linux/tr	2020-08-28 15:55:12.891000000 +0300
-@@ -355,3 +355,72 @@
- 	include "sun_vndr/tr(sun_type6)"
+--- /usr/share/X11/xkb/symbols/tr	2020-07-27 03:22:57.000000000 +0300
++++ ./linux/tr	2020-08-29 12:32:00.857249569 +0300
+@@ -163,6 +163,71 @@
+     name[Group1]="Turkish (Sun dead keys)";
  };
  
-+
-+// Turkish (Colemak)
-+// Created by Salif Mehmed <salifm@salifm.com>
-+// https://github.com/salifm/colemak-tr
-+
 +partial alphanumeric_keys
 +xkb_symbols "colemak" {
 +
 +  include "latin"
++  include "level3(ralt_switch)"
 +
 +  name[Group1]= "Turkish (Colemak)";
 +
@@ -41,7 +37,7 @@
 +  key <AD09> {[ y,           Y           ]};
 +  key <AD10> {[ gbreve,      Gbreve      ]};
 +  key <AD11> {[ udiaeresis,  Udiaeresis  ]};
-+  key <AD12> {[ idotless,    I           ]};
++  key <AD12> {[ backslash,   bar         ]};
 +
 +  key <AC01> {[ a,           A           ]};
 +  key <AC02> {[ r,           R           ]};
@@ -53,8 +49,8 @@
 +  key <AC08> {[ e,           E           ]};
 +  key <AC09> {[ i,           Iabovedot   ]};
 +  key <AC10> {[ o,           O           ]};
-+  key <AC11> {[ apostrophe,  quotedbl    ]};
-+  key <BKSL> {[ backslash,   bar         ]};
++  key <AC11> {[ idotless,    I           ]};
++  key <BKSL> {[ apostrophe,  quotedbl    ]};
 +
 +  key <LSGT> {[ minus,       underscore  ]};
 +  key <AB01> {[ z,           Z           ]};
@@ -68,8 +64,11 @@
 +  key <AB09> {[ period,      greater     ]};
 +  key <AB10> {[ slash,       question    ]};
 +
-+  key <CAPS> {[ BackSpace,   BackSpace    ]};
++//key <CAPS> {[ BackSpace,   BackSpace    ]};
 +  key <SPCE> {[ space,       nobreakspace ]};
 +
-+  include "level3(ralt_switch)"
 +};
++
+ // Kurdish Q layout
+ // Erdal Ronahi <erdal.ronahi@gmail.com>, 2006
+ // http://ferheng.org
