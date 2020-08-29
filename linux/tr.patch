@@ -1,6 +1,6 @@
 --- /usr/share/X11/xkb/symbols/tr	2020-07-27 03:22:57.000000000 +0300
 +++ ./linux/tr	2020-08-29 12:32:00.857249569 +0300
-@@ -163,6 +163,71 @@
+@@ -163,6 +163,68 @@
      name[Group1]="Turkish (Sun dead keys)";
  };
  
@@ -63,9 +63,6 @@
 +  key <AB08> {[ comma,       less        ]};
 +  key <AB09> {[ period,      greater     ]};
 +  key <AB10> {[ slash,       question    ]};
-+
-+//key <CAPS> {[ BackSpace,   BackSpace    ]};
-+  key <SPCE> {[ space,       nobreakspace ]};
 +
 +};
 +

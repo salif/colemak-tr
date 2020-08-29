@@ -59,7 +59,4 @@ xkb_symbols "colemak" {
   key <AB09> {[ period,      greater     ]};
   key <AB10> {[ slash,       question    ]};
 
-//key <CAPS> {[ BackSpace,   BackSpace    ]};
-  key <SPCE> {[ space,       nobreakspace ]};
-
 };
