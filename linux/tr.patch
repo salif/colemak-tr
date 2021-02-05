@@ -54,7 +54,7 @@
 +
 +  key <LSGT> {[ minus,       underscore  ]};
 +  key <AB01> {[ z,           Z           ]};
-+  key <AB02> {[ ccedilla,    ccedilla    ]};
++  key <AB02> {[ ccedilla,    Ccedilla    ]};
 +  key <AB03> {[ c,           C           ]};
 +  key <AB04> {[ v,           V           ]};
 +  key <AB05> {[ b,           B           ]};
