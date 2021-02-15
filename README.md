@@ -7,9 +7,9 @@
 Run:
 
 ```fish
-git clone --depth=1 https://github.com/salifm/colemak-tr /tmp/colemak-tr
-cd /tmp/colemak-tr
-sudo sh ./install.sh
+git clone --depth=1 https://github.com/salif/xkc-installer /tmp/xkc-installer
+git clone --depth=1 https://github.com/salif/colemak-tr /tmp/colemak-tr
+sudo EDITOR="${EDITOR:-nano}" /tmp/xkc-installer/installer.bash /tmp/colemak-tr/linux/xkc.conf
 ```
 
 Then add `Turkish (Colemak)` via your desktop environment's settings.
