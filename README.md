@@ -1,4 +1,4 @@
-## Colemak for the Turkish alphabet
+## Turkish Colemak
 
 ![preview turkish colemak](preview.png)
 
