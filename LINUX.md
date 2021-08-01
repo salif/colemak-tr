@@ -15,8 +15,9 @@ xkb_symbols "colemak" {
   key <AD02> {[ scedilla,    Scedilla,    w,             W          ]};
   key <AD10> {[ gbreve,      Gbreve,      semicolon,     colon      ]};
   key <AD11> {[ udiaeresis,  Udiaeresis,  bracketleft,   braceleft  ]};
-  key <AD12> {[ idotless,    I,           bracketright,  braceright ]};
+  key <AD12> {[ apostrophe,  quotedbl,    bracketright,  braceright ]};
   key <AC09> {[ i,           Iabovedot                              ]};
+  key <AC11> {[ idotless,    I                                      ]};
   key <AB02> {[ ccedilla,    Ccedilla,    x,             X          ]};
 
   include "level3(ralt_switch)"
