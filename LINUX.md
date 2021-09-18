@@ -5,7 +5,7 @@ Put the following text block inside `/usr/share/X11/xkb/symbols/tr`
 ```
 // github.com/salif/colemak-tr
 partial alphanumeric_keys
-xkb_symbols "colemak" {
+xkb_symbols "colemak_tr" {
 
   include "us(colemak)"
 
@@ -29,7 +29,7 @@ Put the following text block inside `/usr/share/X11/xkb/rules/evdev.xml`
 ```
 <variant>
   <configItem>
-    <name>colemak</name>
+    <name>colemak_tr</name>
     <description>Turkish (Colemak)</description>
   </configItem>
 </variant>
