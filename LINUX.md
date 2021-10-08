@@ -24,6 +24,12 @@ xkb_symbols "colemak_tr" {
 };
 ```
 
+Put the following text block inside `/usr/share/X11/xkb/rules/evdev.lst`
+
+```
+colemak_tr      tr: Turkish (Colemak)
+```
+
 Put the following text block inside `/usr/share/X11/xkb/rules/evdev.xml`
 
 ```
