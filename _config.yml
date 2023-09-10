@@ -3,6 +3,8 @@ plugins:
 
 name: Turkish Colemak
 title: null
+description: Turkish Colemak keyboard layout
+repository: salif/colemak-tr
 
 author:
   name: Salif Mehmed
