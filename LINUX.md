@@ -1,6 +1,13 @@
 # Install on Linux
 
-Put the following text block inside `/usr/share/X11/xkb/symbols/tr`
+First, backup some files. Run these commands:
+
+```
+cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
+cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
+```
+
+Open `/usr/share/X11/xkb/symbols/tr` and append the following text block at the end of the file
 
 ```
 // github.com/salif/colemak-tr
@@ -24,13 +31,7 @@ xkb_symbols "colemak_tr" {
 };
 ```
 
-Put the following text block inside `/usr/share/X11/xkb/rules/evdev.lst`
-
-```
-colemak_tr      tr: Turkish (Colemak)
-```
-
-Put the following text block inside `/usr/share/X11/xkb/rules/evdev.xml`
+Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the `Turkish (Alt-Q)` variant
 
 ```
 <variant>
@@ -41,6 +42,19 @@ Put the following text block inside `/usr/share/X11/xkb/rules/evdev.xml`
 </variant>
 ```
 
-Then add `Turkish (Colemak)` via your desktop environment's settings.
+Then add `Turkish (Colemak)` via the settings of your desktop environment
 
-If it doesn't work then create an issue on this repository
+## Uninstall
+
+To uninstall undo everything you did or restore old files:
+
+```
+mv /usr/share/X11/xkb/symbols/tr.old /usr/share/X11/xkb/symbols/tr
+mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
+```    
+
+## Update
+
+Uninstall the old version and install the new version. If the installation instructions are updated, old instructions can be found [here](./LINUX_OLD.md).
+
+[Back](./README.md)

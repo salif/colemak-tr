@@ -1,2 +1,9 @@
+plugins:
+  - jekyll-sitemap
+
 name: Turkish Colemak
 title: null
+
+author:
+  name: Salif Mehmed
+  url: https://salif.eu

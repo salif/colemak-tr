@@ -1,0 +1,6 @@
+/_site/
+/.bundle/
+/.jekyll-cache/
+/Gemfile
+/Gemfile.lock
+.DS_Store
