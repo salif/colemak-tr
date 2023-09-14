@@ -1,11 +1,53 @@
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-name: Turkish Colemak
-title: null
+exclude:
+  - "*.all.md"
+  - "*.all.json"
+
+title: Turkish Colemak
 description: Turkish Colemak keyboard layout
 repository: salif/colemak-tr
 
 author:
   name: Salif Mehmed
   url: https://salif.eu
+
+defaults:
+  - scope:
+      path: "*.bg.md"
+    values:
+      lang: "bg"
+  - scope:
+      path: "*.eo.md"
+    values:
+      lang: "eo"
+  - scope:
+      path: "*.tr.md"
+    values:
+      lang: "tr"
+  - scope:
+      path: "*.zh-CN.md"
+    values:
+      lang: "zh-CN"
+  - scope:
+      path: "*.es.md"
+    values:
+      lang: "es"
+  - scope:
+      path: "*.ar.md"
+    values:
+      lang: "ar"
+  - scope:
+      path: "*.pt.md"
+    values:
+      lang: "pt"
+  - scope:
+      path: "*.ru.md"
+    values:
+      lang: "ru"
+  - scope:
+      path: "*.id.md"
+    values:
+      lang: "id"
