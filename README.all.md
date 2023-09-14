@@ -6,7 +6,7 @@
 
 ![„:Preview the Turkish Colemak“](./media/preview.png)
 
-„:This is my attempt to make a keyboard layout transliterated from Colemak into Turkish.
+„:This is my attempt to make a keyboard layout transliterated from Colemak into Turkish“.
 
 ---
 

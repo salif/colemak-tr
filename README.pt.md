@@ -11,7 +11,7 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](README.md), [türk�
 
 ![Visualize o Colemak turco](./media/preview.png)
 
-„:This is my attempt to make a keyboard layout transliterated from Colemak into Turkish.
+Esta é minha tentativa de fazer um layout de teclado transliterado do Colemak para o turco.
 
 ---
 
