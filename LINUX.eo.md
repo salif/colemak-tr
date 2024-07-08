@@ -1,11 +1,6 @@
-# Instalu en Linukso
+# Instalado en Linukso
 
-<span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none"
-style="vertical-align: sub;" viewBox="0 0 24 24" stroke="currentColor"
-stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path
-class="st0" d="M2,16c0.1,0,8-5,9-7c0.6-1.3,1-5,1-5h3H1h7V1" /><line
-class="st0" x1="4" y1="8" x2="12" y2="16" /><polygon class="st0"
-points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [türkçe](LINUX.tr.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [български](LINUX.bg.md)</span>
+Traduko: [english](LINUX.md), [türkçe](LINUX.tr.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [български](LINUX.bg.md)
 
 ---
 
@@ -40,7 +35,7 @@ xkb_symbols "colemak_tr" {
 };
 ```
 
-Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la `Turkish (Alt-Q)` variant.
+Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Turkish (Alt-Q)`.
 
 ```xml
 <variant>
@@ -55,7 +50,7 @@ Poste aldonu `Turkish (Colemak)` per la agordoj de via labortabla medio.
 
 ## Malinstalado
 
-Por malinstali malfari ĉion, kion vi faris aŭ restarigi la malnovajn dosierojn:
+Por malinstali malfaru ĉion, kion vi faris aŭ restarigi la malnovajn dosierojn:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/tr.old /usr/share/X11/xkb/symbols/tr

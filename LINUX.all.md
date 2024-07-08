@@ -1,6 +1,6 @@
-# „:Install on Linux“
+# „:Installing on Linux“
 
-„:---“
+„:Translation:“ „:---“
 
 ---
 
@@ -35,7 +35,7 @@ xkb_symbols "colemak_tr" {
 };
 ```
 
-„:Open file“ `/usr/share/X11/xkb/rules/evdev.xml` „:and insert the following text block after the“ `Turkish (Alt-Q)` variant.
+„:Open file“ `/usr/share/X11/xkb/rules/evdev.xml` „:and insert the following text block after the variant“ `Turkish (Alt-Q)`.
 
 ```xml
 <variant>
