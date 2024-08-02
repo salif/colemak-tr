@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}" {% if page.lang == "ar" %}dir="rtl"{% endif %}>
+<html lang="{{ page.lang | default: site.lang }}" {%- if page.lang == "ar" %} dir="rtl"{% endif %}>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index, follow" />
 {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
     {% if jekyll.environment == "production" %}
     <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     {% endif %}
@@ -17,7 +17,7 @@
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        {{ site.data.values[page.lang].footer_os | default: "This site is open source." }} {% github_edit_link "Improve this page" %}.
+        {{ site.data.values[page.lang].footer_os | default: "This site is open source." }} <a href="{% github_edit_link %}">{{ site.data.values[page.lang].footer_im | default: "Improve this page" }}</a>.
       </div>
       {% endif %}
     </div>

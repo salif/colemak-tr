@@ -9,23 +9,32 @@
 ## Връзки
 
 * [Начална страница](https://salif.github.io/colemak-tr/)
-* [Дискусия (Github)](https://github.com/salif/colemak-tr/discussions)
+* [Програмен код](https://codeberg.org/salif/colemak-tr)
+* [Дискусии (Github)](https://github.com/salif/colemak-tr/discussions)
 * [Чат стая (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Програмен код (Github)](https://github.com/salif/colemak-tr)
-* [Програмен код (Codeberg)](https://codeberg.org/salif/colemak-tr)
 
 ## Инсталиране
 
-### Инсталиране на Linux
+### Инсталиране в Linux
 
 Вижте тази страница: [LINUX.bg.md](./LINUX.bg.md)
 
-## Принос
+### Инсталиране на други операционни системи
 
-Ако откриете грешка или имате предвид подобрение, не се колебайте да го споделите в [Github] или [Codeberg] или изпратете заявка за изтегляне в Github или Codeberg.
+Не мога да ви помогна, опитайте сами да намерите начин да инсталирате на вашата ОС.
 
-[Github]: https://github.com/salif/colemak-tr/issues
+## Допринасяне
+
+Ако откриете грешка или искате да предложите подобрение, не се колебайте да го споделите в [Codeberg] или [Github] или изпратете заявка за изтегляне.
+
+[Github]: https://github.com/salif/colemak-tr/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-tr/issues
+
+## Други клавиатурни подредби
+
+* [За руски език](https://salif.github.io/colemak-ru/)
+* [За български език](https://salif.github.io/colemak-bg/)
+* [За езика есперанто](https://salif.github.io/colemak-eo/)
 
 ---
 

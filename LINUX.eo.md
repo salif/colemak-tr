@@ -4,14 +4,20 @@ Traduko: [english](LINUX.md), [türkçe](LINUX.tr.md), [中文](LINUX.zh-CN.md),
 
 ---
 
-Unue, sekurigu iujn dosierojn. Rulu ĉi tiujn komandojn:
+Mi ne estas sperta pri instalado de klavaraj aranĝoj, ĉi tiuj instrukcioj eble ne funkcias por ĉiuj uzantoj de Linukso.
+
+## Sekvu ĉi tiujn instrukciojn
+
+**1.** Unue, sekurigu iujn dosierojn rulante ĉi tiujn komandojn:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Malfermu dosieron `/usr/share/X11/xkb/symbols/tr` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero
+Se vi ricevas eraron, unue rulu ĉi tiun komandon: `su -l root`, tiam provu ruli la komandojn denove, aŭ anstataŭigu `cp` per `sudo cp`.
+
+**2.** Malfermu dosieron `/usr/share/X11/xkb/symbols/tr` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero:
 
 ```
 // github.com/salif/colemak-tr
@@ -35,7 +41,7 @@ xkb_symbols "colemak_tr" {
 };
 ```
 
-Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Turkish (Alt-Q)`.
+**3.** Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Turkish (Alt-Q)`:
 
 ```xml
 <variant>
@@ -46,11 +52,11 @@ Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekst
 </variant>
 ```
 
-Poste aldonu `Turkish (Colemak)` per la agordoj de via labortabla medio.
+**4.** Poste aldonu `Turkish (Colemak)` per la agordoj de via labortabla medio.
 
 ## Malinstalado
 
-Por malinstali malfaru ĉion, kion vi faris aŭ restarigi la malnovajn dosierojn:
+Por malinstali restarigi la malnovajn dosierojn aŭ malfari ĉion, kion vi faris:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/tr.old /usr/share/X11/xkb/symbols/tr

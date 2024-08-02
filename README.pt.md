@@ -9,10 +9,9 @@ Esta é minha tentativa de fazer um layout de teclado baseado no Colemak, adapta
 ## Links
 
 * [Pagina inicial](https://salif.github.io/colemak-tr/)
-* [Discussão (Github)](https://github.com/salif/colemak-tr/discussions)
+* [Código fonte](https://codeberg.org/salif/colemak-tr)
+* [Discussões (Github)](https://github.com/salif/colemak-tr/discussions)
 * [Sala de bate-papo (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Código fonte (Github)](https://github.com/salif/colemak-tr)
-* [Código fonte (Codeberg)](https://codeberg.org/salif/colemak-tr)
 
 ## Instalando
 
@@ -20,12 +19,22 @@ Esta é minha tentativa de fazer um layout de teclado baseado no Colemak, adapta
 
 Veja esta página: [LINUX.pt.md](./LINUX.pt.md)
 
+### Instalando em outros sistemas operacionais
+
+Não posso te ajudar, tente encontrar você mesmo uma maneira de instalar no seu sistema operacional.
+
 ## Contribuindo
 
-Se você encontrar um bug ou tiver uma melhoria em mente, sinta-se à vontade para compartilhá-lo no [Github] ou [Codeberg] ou enviar uma solicitação pull no Github ou Codeberg
+Se você encontrar um bug ou quiser sugerir uma melhoria, sinta-se à vontade para compartilhá-lo no [Codeberg] ou [Github] ou enviar uma solicitação pull.
 
-[Github]: https://github.com/salif/colemak-tr/issues
+[Github]: https://github.com/salif/colemak-tr/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-tr/issues
+
+## Outros layouts de teclado
+
+* [Para o idioma Russo](https://salif.github.io/colemak-ru/)
+* [Para língua búlgara](https://salif.github.io/colemak-bg/)
+* [Para a língua Esperanto](https://salif.github.io/colemak-eo/)
 
 ---
 

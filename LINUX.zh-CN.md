@@ -4,14 +4,20 @@
 
 ---
 
-首先，备份一些文件。运行这些命令:
+我不是安装键盘布局的专家，这些说明可能不适用于所有 Linux 用户.
+
+## 请遵循这些说明
+
+**1.** 首先，通过运行这些命令备份一些文件:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-打开文件 `/usr/share/X11/xkb/symbols/tr` 并将以下文本块附加到文件末尾
+如果出现错误，请首先运行以下命令： `su -l root`, 然后尝试再次运行命令，或将“cp”替换为“sudo cp”.
+
+**2.** 打开文件 `/usr/share/X11/xkb/symbols/tr` 并将以下文本块附加到文件末尾:
 
 ```
 // github.com/salif/colemak-tr
@@ -35,7 +41,7 @@ xkb_symbols "colemak_tr" {
 };
 ```
 
-打开文件 `/usr/share/X11/xkb/rules/evdev.xml` 并在变体后面插入以下文本块 `Turkish (Alt-Q)`.
+**3.** 打开文件 `/usr/share/X11/xkb/rules/evdev.xml` 并在变体后面插入以下文本块 `Turkish (Alt-Q)`:
 
 ```xml
 <variant>
@@ -46,11 +52,11 @@ xkb_symbols "colemak_tr" {
 </variant>
 ```
 
-然后加 `Turkish (Colemak)` 通过桌面环境的设置.
+**4.** 然后加 `Turkish (Colemak)` 通过桌面环境的设置.
 
 ## 正在卸载
 
-要卸载，请撤消您所做的一切或恢复旧文件:
+要卸载，请恢复旧文件或撤消您所做的一切:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/tr.old /usr/share/X11/xkb/symbols/tr

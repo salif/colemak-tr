@@ -4,14 +4,20 @@ Tercüme: [english](LINUX.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md)
 
 ---
 
-Öncelikle bazı dosyaları yedekleyin. Bu komutları çalıştırın:
+Klavye düzenlerini kurma konusunda uzman değilim; bu talimatlar tüm Linux kullanıcıları için işe yaramayabilir.
+
+## Bu talimatları izleyin
+
+**1.** Öncelikle bu komutları çalıştırarak bazı dosyaları yedekleyin:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Açık dosya `/usr/share/X11/xkb/symbols/tr` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin
+Bir hata alırsanız, önce şu komutu çalıştırın: `su -l root`, daha sonra komutları tekrar çalıştırmayı deneyin veya 'cp'yi 'sudo cp' ile değiştirin.
+
+**2.** Açık dosya `/usr/share/X11/xkb/symbols/tr` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin:
 
 ```
 // github.com/salif/colemak-tr
@@ -35,7 +41,7 @@ xkb_symbols "colemak_tr" {
 };
 ```
 
-Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve değişkenden sonra aşağıdaki metin bloğunu ekleyin `Turkish (Alt-Q)`.
+**3.** Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve değişkenden sonra aşağıdaki metin bloğunu ekleyin `Turkish (Alt-Q)`:
 
 ```xml
 <variant>
@@ -46,11 +52,11 @@ Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve değişkenden sonra aşağ�
 </variant>
 ```
 
-Sonra Ekle `Turkish (Colemak)` masaüstü ortamınızın ayarları aracılığıyla.
+**4.** Sonra Ekle `Turkish (Colemak)` masaüstü ortamınızın ayarları aracılığıyla.
 
 ## Kaldırma
 
-Kaldırmak için yaptığınız her şeyi geri alın veya eski dosyaları geri yükleyin:
+Kaldırmak için eski dosyaları geri yükleyin veya yaptığınız her şeyi geri alın:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/tr.old /usr/share/X11/xkb/symbols/tr

@@ -1,17 +1,23 @@
-# Инсталиране на Linux
+# Инсталиране в Linux
 
 Превод: [english](LINUX.md), [türkçe](LINUX.tr.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [esperanto](LINUX.eo.md)
 
 ---
 
-Първо архивирайте някои файлове. Изпълнете тези команди:
+Не съм експерт в инсталирането на клавиатурни подредби, тези инструкции може да не работят за всички потребители на Linux.
+
+## Следвайте тези инструкции
+
+**1.** Първо архивирайте някои файлове, като изпълните тези команди:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Отворете файла `/usr/share/X11/xkb/symbols/tr` и добавете следния текстов блок в края на файла
+Ако получите грешка, първо изпълнете тази команда: `su -l root`, след това опитайте да изпълните командите отново или заменете `cp` със `sudo cp`.
+
+**2.** Отворете файла `/usr/share/X11/xkb/symbols/tr` и добавете следния текстов блок в края на файла:
 
 ```
 // github.com/salif/colemak-tr
@@ -35,7 +41,7 @@ xkb_symbols "colemak_tr" {
 };
 ```
 
-Отворете файла `/usr/share/X11/xkb/rules/evdev.xml` и вмъкнете следния текстов блок след варианта `Turkish (Alt-Q)`.
+**3.** Отворете файла `/usr/share/X11/xkb/rules/evdev.xml` и вмъкнете следния текстов блок след варианта `Turkish (Alt-Q)`:
 
 ```xml
 <variant>
@@ -46,11 +52,11 @@ xkb_symbols "colemak_tr" {
 </variant>
 ```
 
-След това добавете `Turkish (Colemak)` чрез настройките на вашата работна среда.
+**4.** След това добавете `Turkish (Colemak)` чрез настройките на вашата работна среда.
 
 ## Деинсталиране
 
-За да деинсталирате, отменете всичко, което сте направили, или възстановете старите файлове:
+За да деинсталирате, възстановете старите файлове или отменете всичко, което сте направили:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/tr.old /usr/share/X11/xkb/symbols/tr
