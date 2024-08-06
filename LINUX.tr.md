@@ -15,7 +15,7 @@ cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Bir hata alırsanız, önce şu komutu çalıştırın: `su -l root`, daha sonra komutları tekrar çalıştırmayı deneyin veya 'cp'yi 'sudo cp' ile değiştirin.
+Bir hata alırsanız, önce şu komutu çalıştırın: `su root`, daha sonra komutları tekrar çalıştırmayı deneyin veya 'cp'yi 'sudo cp' ile değiştirin.
 
 **2.** Açık dosya `/usr/share/X11/xkb/symbols/tr` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin:
 

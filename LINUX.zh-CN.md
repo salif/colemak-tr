@@ -15,7 +15,7 @@ cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-如果出现错误，请首先运行以下命令： `su -l root`, 然后尝试再次运行命令，或将“cp”替换为“sudo cp”.
+如果出现错误，请首先运行以下命令： `su root`, 然后尝试再次运行命令，或将“cp”替换为“sudo cp”.
 
 **2.** 打开文件 `/usr/share/X11/xkb/symbols/tr` 并将以下文本块附加到文件末尾:
 

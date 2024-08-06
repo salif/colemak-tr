@@ -15,7 +15,7 @@ cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-„:If you get an error, first run this command:“ `su -l root`, „:then try running the commands again, or replace `cp` with `sudo cp`“.
+„:If you get an error, first run this command:“ `su root`, „:then try running the commands again, or replace `cp` with `sudo cp`“.
 
 **2.** „:Open file“ `/usr/share/X11/xkb/symbols/tr` „:and append the following text block at the end of the file“:
 

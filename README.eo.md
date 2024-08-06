@@ -32,9 +32,9 @@ Se vi trovas cimon aŭ volas sugesti plibonigon, bonvolu dividi ĝin ĉe [Codebe
 
 ## Aliaj klavaraj aranĝoj
 
-* [Por rusa lingvo](https://salif.github.io/colemak-ru/)
 * [Por bulgara lingvo](https://salif.github.io/colemak-bg/)
 * [Por Esperanto-lingvo](https://salif.github.io/colemak-eo/)
+* [Por Esperanto Ŝavia alfabeto](https://salif.github.io/shaw-eo/)
 
 ---
 

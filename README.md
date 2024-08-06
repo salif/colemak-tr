@@ -32,9 +32,9 @@ If you find a bug or want to suggest an improvement, feel free to share it on [C
 
 ## Other keyboard layouts
 
-* [For Russian language](https://salif.github.io/colemak-ru/)
 * [For Bulgarian language](https://salif.github.io/colemak-bg/)
 * [For Esperanto language](https://salif.github.io/colemak-eo/)
+* [For Esperanto Shavian alphabet](https://salif.github.io/shaw-eo/)
 
 ---
 

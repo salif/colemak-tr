@@ -32,9 +32,9 @@ Si encuentra un error o desea sugerir una mejora, no dude en compartirlo en [Cod
 
 ## Otras distribuciones de teclado
 
-* [Para idioma ruso](https://salif.github.io/colemak-ru/)
 * [Para idioma búlgaro](https://salif.github.io/colemak-bg/)
 * [Para el idioma esperanto](https://salif.github.io/colemak-eo/)
+* [Para el alfabeto esperanto shaviano](https://salif.github.io/shaw-eo/)
 
 ---
 

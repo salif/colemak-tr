@@ -15,7 +15,7 @@ cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/tr.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Ако получите грешка, първо изпълнете тази команда: `su -l root`, след това опитайте да изпълните командите отново или заменете `cp` със `sudo cp`.
+Ако получите грешка, първо изпълнете тази команда: `su root`, след това опитайте да изпълните командите отново или заменете `cp` със `sudo cp`.
 
 **2.** Отворете файла `/usr/share/X11/xkb/symbols/tr` и добавете следния текстов блок в края на файла:
 
