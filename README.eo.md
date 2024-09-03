@@ -35,7 +35,3 @@ Se vi trovas cimon aŭ volas sugesti plibonigon, bonvolu dividi ĝin ĉe [Codebe
 * [Por bulgara lingvo](https://salif.github.io/colemak-bg/)
 * [Por Esperanto-lingvo](https://salif.github.io/colemak-eo/)
 * [Por Esperanto Ŝavia alfabeto](https://salif.github.io/shaw-eo/)
-
----
-
-Ĉi tiu paĝo enhavas aŭtomate tradukitan tekston

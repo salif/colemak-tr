@@ -35,7 +35,3 @@
 * [للغة البلغارية](https://salif.github.io/colemak-bg/)
 * [للغة الاسبرانتو](https://salif.github.io/colemak-eo/)
 * [للأبجدية الاسبرانتو الشافية](https://salif.github.io/shaw-eo/)
-
----
-
-تحتوي هذه الصفحة على نص مترجم تلقائيًا

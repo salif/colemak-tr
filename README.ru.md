@@ -35,7 +35,3 @@
 * [Для болгарского языка](https://salif.github.io/colemak-bg/)
 * [Для языка эсперанто](https://salif.github.io/colemak-eo/)
 * [Для эсперанто-шавианского алфавита](https://salif.github.io/shaw-eo/)
-
----
-
-Эта страница содержит автоматически переведенный текст

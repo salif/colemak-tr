@@ -35,7 +35,3 @@ Jika Anda menemukan bug atau ingin menyarankan perbaikan, silakan membagikannya 
 * [Untuk bahasa Bulgaria](https://salif.github.io/colemak-bg/)
 * [Untuk bahasa Esperanto](https://salif.github.io/colemak-eo/)
 * [Untuk alfabet Esperanto Shavian](https://salif.github.io/shaw-eo/)
-
----
-
-Halaman ini berisi teks yang diterjemahkan secara otomatis

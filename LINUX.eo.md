@@ -20,7 +20,8 @@ Se vi ricevas eraron, unue rulu ĉi tiun komandon: `su root`, tiam provu ruli la
 **2.** Malfermu dosieron `/usr/share/X11/xkb/symbols/tr` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero:
 
 ```
-// github.com/salif/colemak-tr
+// homepage: salif.github.io/colemak-tr
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "colemak_tr" {
 
@@ -67,9 +68,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Malinstalu la malnovan version kaj instalu la novan version.
 
----
-
-Ĉi tiu paĝo enhavas aŭtomate tradukitan tekston
+Ŝanĝoj, kiujn vi faras al dosieroj en la dosierujo `/usr/share/X11/xkb`, estos perditaj kiam la pakaĵo posedanta tiun dosierujon estas ĝisdatigita, ekzemple ĉe Arch Linukso ĉi tiu pako nomiĝas `xkeyboard-config`. Vi devas aŭ fari la samajn ŝanĝojn ĉiufoje kiam vi ĝisdatigas ĉi tiun pakaĵon aŭ malŝalti ĝisdatigojn por ĉi tiu pako. Vi ankaŭ havas la eblon fari laŭmendan pakaĵon, kiu enhavas ĉi tiujn ŝanĝojn kaj anstataŭigas la originalan pakaĵon.
 
 ---
 

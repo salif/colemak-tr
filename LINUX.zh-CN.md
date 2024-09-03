@@ -20,7 +20,8 @@ cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 **2.** 打开文件 `/usr/share/X11/xkb/symbols/tr` 并将以下文本块附加到文件末尾:
 
 ```
-// github.com/salif/colemak-tr
+// homepage: salif.github.io/colemak-tr
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "colemak_tr" {
 
@@ -67,9 +68,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 卸载旧版本并安装新版本.
 
----
-
-此页面包含自动翻译的文本
+当拥有该目录的软件包更新时，您对“/usr/share/X11/xkb”目录中的文件所做的更改将会丢失，例如在 Arch Linux 上，该软件包称为“xkeyboard-config”。您必须在每次更新此软件包时进行相同的更改，或者关闭此软件包的更新。您还可以选择制作包含这些更改的自定义包并替换原始包.
 
 ---
 
